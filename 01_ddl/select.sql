@@ -58,3 +58,40 @@ SELECT * FROM user WHERE first_name LIKE 'A___';
 -- phone 이 010으로 시작하지 않는 사람
 
 SELECT * FROM user WHERE id = '23';
+
+
+-- 전화번호가 '010' 으로 시작하는 데이터를 조회하는 SQL
+SELECT * FROM user WHERE phone LIKE '010%';
+
+-- 전화번호가 '010' 으로 시작하지 않는 데이터를 조회하는 SQL
+SELECT * FROM user WHERE phone NOT LIKE '010%';
+
+-- 성에 `'` 이 포함된 이름을 조회하는 SQL
+SELECT * FROM user WHERE user.last_name LIKE '%''%';
+
+-- 국적이 미국(United States), 캐나다(Canada), 호주(Australia)
+SELECT * FROM user
+WHERE country =  'United State'
+OR country = 'Canada'
+OR country = 'Australia';
+
+-- IN 사용
+SELECT * FROM user
+WHERE country IN ('United States', 'Canada', 'Australia');
+
+-- BETWEEN 사용
+SELECT first_name, last_name, age
+FROM user
+WHERE age BETWEEN 30 AND 39;
+
+
+-- Limit
+SELECT id, first_name, last_name
+FROM user
+LIMIT 20;
+
+SELECT id, first_name, last_name
+FROM user
+WHERE age > 30
+ORDER BY age
+LIMIT 50;

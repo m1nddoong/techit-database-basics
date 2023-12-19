@@ -5,59 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e097dc24-5e35-4645-91b8-02113f4d362d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c8d1458b-226c-4eca-956b-262d3f66c235.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c8d1458b-226c-4eca-956b-262d3f66c235/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_ddl/alter.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_ddl/constraints.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_ddl/data/users.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_ddl/ddl.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_ddl/dml.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_ddl/select.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/techit-database-basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_ddl/aggregate.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_join/data/enrolling_lectures.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_join/data/instructor.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_join/data/lecture.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_join/data/student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_join/join.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recap.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c8d1458b-226c-4eca-956b-262d3f66c235.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c8d1458b-226c-4eca-956b-262d3f66c235.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c8d1458b-226c-4eca-956b-262d3f66c235/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c8d1458b-226c-4eca-956b-262d3f66c235/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_ddl/select.sql" beforeDir="false" afterPath="$PROJECT_DIR$/01_ddl/select.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techit-database-basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/techit-database-basics.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ZhAZ7yx6pasi9YBk2xSjTHwatm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03_join/data" />
       <recent name="$PROJECT_DIR$/01_ddl/data" />
     </key>
   </component>
@@ -82,6 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1702863989637</updated>
       <workItem from="1702863990623" duration="14207000" />
+      <workItem from="1702882947688" duration="147000" />
+      <workItem from="1702944079474" duration="12467000" />
     </task>
     <servers />
   </component>
